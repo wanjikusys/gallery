@@ -2,8 +2,8 @@ var config = {}
 
 // Update to have your correct username and password
 config.mongoURI = {
-    production: 'mongodb+srv://kip1010:admin123@ip1.x22oalz.mongodb.net/?retryWrites=true&w=majority&appName=IP1',
-    development: 'mongodb+srv://kip1010:admin123@ip1.x22oalz.mongodb.net/?retryWrites=true&w=majority&appName=IP1',
-    test: 'mongodb+srv://kip1010:admin123@ip1.x22oalz.mongodb.net/?retryWrites=true&w=majority&appName=IP1',
+    production: 'mongodb+srv://Admin:12345@ipcluster.xlxiwyt.mongodb.net/?retryWrites=true&w=majority&appName=IpCluster',
+    development: 'mongodb+srv://Admin:12345@ipcluster.xlxiwyt.mongodb.net/?retryWrites=true&w=majority&appName=IpCluster',
+    test: 'mongodb+srv://Admin:12345@ipcluster.xlxiwyt.mongodb.net/?retryWrites=true&w=majority&appName=IpCluster',
 }
 module.exports = config;
