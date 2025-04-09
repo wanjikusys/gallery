@@ -4,9 +4,9 @@ pipeline{
         nodejs 'node23'
     }
     stages{
-        stage ("fetching code from github") {
+        stage ("Fetching code from github") {
             steps{
-             git branch:"master" , url:"https://github.com/wanjikusys/gallery.git"
+                git branch:"master" , url:"https://github.com/wanjikusys/gallery.git"
             }
         }
         stage ("installing npm") {
@@ -16,7 +16,7 @@ pipeline{
         }
         stage ("unit test") { 
             steps{
-                sh 'npm run'
+                sh 'npm test'
             }
         }
     }
